@@ -1,0 +1,7 @@
+{
+  "name": "Swapi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
