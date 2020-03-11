@@ -1,3 +1,36 @@
 ion-content ion-toolbar {
   --background: var(--ion-background-color);
 }
+
+ion-card-header ion-card-subtitle {
+  display: inline;
+}
+
+ion-card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ion-button {
+  padding-left: 10px;
+}
+
+// ion-content {
+//   width: 100%;
+// }
+
+// ion-list {
+//   width: inherit;
+// }
+
+// ion-card {
+//   width: inherit;
+// }
+
+// ion-card-header {
+//   width: inherit;
+// }
+
+// ion-card-subtitle {
+//   width: inherit;
+// }

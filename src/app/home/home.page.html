@@ -9,14 +9,14 @@
 <ion-content [fullscreen]="true">
   
   <ion-header collapse="condense">
-    <ion-toolbar>
+    <ion-toolbar color="primary">
       <ion-title size="large">
         Swapi
       </ion-title>
     </ion-toolbar>
   </ion-header>
   
-  <ion-list>
+  <ion-list color="dark">
     <ion-card *ngFor="let person of people">
       <ion-card-header>
       <ion-card-subtitle>{{person.name}}</ion-card-subtitle>
